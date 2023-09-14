@@ -120,6 +120,9 @@ font-size:var(--fs-xl);
 .mt-70{
     margin-top: 70px;
 }
+.pb-20{
+    padding-bottom: 20px;
+}
 .pt-27{
     padding-top: 27px;
 }
@@ -131,6 +134,9 @@ padding: 10px 32px;
 }
 .pb-40{
     padding-bottom: 40px;
+}
+.pb-69{
+    padding-bottom: 69px;
 }
 .pt-93{
     padding-top: 93px;
@@ -162,11 +168,17 @@ padding: 10px 32px;
 .pl-18{
     padding-left: 18px;
 }
+.pl-23{
+    padding-left: 23px;
+}
 .pt-90{
     padding-top: 90px;
 }
 .mt-60{
     margin-top: 60px;
+}
+.pt-60{
+    padding-top: 60px;
 }
 .pl-0{
     padding-left: 0 !important;
@@ -176,6 +188,9 @@ padding: 10px 32px;
 }
 .pb-32{
     padding-bottom: 32px;
+}
+.gap_30{
+    gap: 30px !important;
 }
 /* nav1 */
 .bg-f7{
@@ -189,6 +204,9 @@ padding: 10px 32px;
     display: flex;
     flex-direction: column;
     margin-bottom: 7px;
+}
+.hover{
+    width: 100%;
 }
 .hover ul{
     display: none;
@@ -228,6 +246,8 @@ transition: .4s;
 }
 .box{
     background:var(--fc-c7);
+    width: 80px;
+    text-align: center;
     }
 .search{
     width: 49px;
@@ -390,11 +410,28 @@ box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.10);
     grid-column: 3/4;
     grid-row: 2/3;
     }
+    /* section8 */
+    .email{
+        width: 423px;
+height: 48px;
+border-radius: 5px;
+border: 1px solid rgba(158, 48, 64, 0.30);
+background: var(--fc-c4);
+    }
+    /* footer */
+    .bg-footer{
+        background: var(--fc-c7);
+    }
+    .line-foot{
+        width: 349px;
+        height: 1px;
+        background: var(--fc-c1);
+        opacity: 0.3;
+        margin-top: 40px;
+    }
 /* media */
 @media (min-width:0) {
-    .third{
-        display: none;
-    }
+
 }
 @media(max-width:1200px) {
     .mobileView {
@@ -409,7 +446,13 @@ box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.10);
         right: -100%;
         transition: all 1000ms linear;
         background-color:wheat;
-    }        
+    }  
+    .second{
+        display: none;
+    }      
+    .third{
+        width: 100%;
+    }
 .overflow-hide {
     overflow: hidden;
 }
@@ -454,9 +497,7 @@ box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.10);
 
 } 
 @media (min-width:1200px) {
-    .third{
-        display: block;
-    }
+
 }
 @media (min-width:1440px) {
     .custom_container{
