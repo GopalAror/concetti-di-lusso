@@ -467,7 +467,9 @@ background: var(--fc-c4);
         opacity: 0.3;
         margin-top: 40px;
     }
-
+.grid{
+    transition: .5s;
+}
 /* media */
 @media (min-width:0) {
 .nav_btn{
